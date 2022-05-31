@@ -76,5 +76,18 @@ input[type=text]{
 @media only screen and (max-width: 768px) {
     .container{
         max-width: 100%;
+        min-width: 90%;
     }
+    li{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn{
+        margin-top: 1em;
+        padding:1rem;
+        width: 100%;
+    }
+
 }
