@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{   
+    margin-top: 0.5em;  
+    border: 0.02rem solid #b6b0b0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #f3f0f0;
+}
+.header_container{  
+    padding: 1rem 2.5rem;  
+    background-color: rgb(46, 194, 164);
+}
+.header_text{
+    color: #ffffff;
+    font-size: 2rem;
+    
+}
+.form_container{
+    display: flex;
+    padding: 1rem 2.5rem;
+    justify-content: space-between;
+}
+#msglist{
+    
+    padding: 0;
+}
+.msgs{
+    padding: 1rem 3rem; 
+    border-top:0.02rem  solid #b6b0b0;
+    margin: 2rem;
+    word-wrap: break-word;
+}
+input[type=text]{
+    padding:1rem;
+    width: 100%;
+    margin: 1rem;
+    margin-left: 0;
+}
+.btn{
+    padding:1rem 3rem;
+    margin: 1rem;
+    margin-right: 0;
+    background-color: rgb(46, 194, 164);
+    color: #ffffff;
+    border:1px #f3f0f0;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(100, 173, 47);
+    cursor: pointer;
+}   
+.edit{
+    background-color: rgb(255, 213, 0);
+    margin: 1em;
+    /* margin-left: auto; */
+    float: right;
+    margin-top:0;
+}
+.del{
+    background-color: red;
+    margin: 1em;
+    /* margin-left: auto; */
+    float: right;
+    margin-top:0;
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        min-width: 70%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 100%;
+    }
+}
